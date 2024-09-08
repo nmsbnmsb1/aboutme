@@ -1,0 +1,1061 @@
+<html lang="en" style="overflow-y: scroll">
+  <head>
+    <meta charset="utf-8" />
+    <title data-gatsby-head="true">简历</title>
+    <style>
+      body {
+        min-width: 1280px;
+        width: 100% !important;
+      }
+
+      .hoverCursorPointer:hover {
+        cursor: pointer;
+      }
+
+      @font-face {
+        font-family: Poppins-Black;
+        src: url(/fonts/FontsFree-Net-Poppins-Black.ttf);
+      }
+
+      @font-face {
+        font-family: DIN-Bold;
+        src: url(/fonts/DIN\ Bold.otf);
+      }
+
+      a.primary {
+        color: #1890ff !important;
+        font-family: PingFang SC-Regular, PingFang SC, sans-serif !important;
+        font-weight: 400 !important;
+      }
+
+      a,
+      a.primary {
+        text-decoration: none !important;
+      }
+
+      @font-face {
+        font-family: DIN-BlackItalic-Regular;
+        src: url(/fonts/DIN-BlackItalic\ Regular.otf);
+      }
+
+      /*!
+* 
+* antd v4.24.2
+* 
+* Copyright 2015-present, Alipay, Inc.
+* All rights reserved.
+*       
+*/
+      [class*="ant-"] input::-ms-clear,
+      [class*="ant-"] input::-ms-reveal,
+      [class*="ant-"]::-ms-clear,
+      [class^="ant-"] input::-ms-clear,
+      [class^="ant-"] input::-ms-reveal,
+      [class^="ant-"]::-ms-clear {
+        display: none;
+      }
+
+      body,
+      html {
+        height: 100%;
+        width: 100%;
+      }
+
+      input::-ms-clear,
+      input::-ms-reveal {
+        display: none;
+      }
+
+      *,
+      :after,
+      :before {
+        box-sizing: border-box;
+      }
+
+      html {
+        -ms-text-size-adjust: 100%;
+        -ms-overflow-style: scrollbar;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        font-family: sans-serif;
+        line-height: 1.15;
+      }
+
+      body {
+        -webkit-font-feature-settings: "tnum";
+        font-feature-settings: "tnum";
+        background-color: #fff;
+        color: rgba(0, 0, 0, 0.85);
+        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+          Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+          Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+        font-size: 14px;
+        font-variant: tabular-nums;
+        line-height: 1.5715;
+      }
+
+      [tabindex="-1"]:focus {
+        outline: none !important;
+      }
+
+      hr {
+        height: 0;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        color: rgba(0, 0, 0, 0.85);
+        font-weight: 500;
+        margin-bottom: 0.5em;
+        margin-top: 0;
+      }
+
+      p {
+        margin-bottom: 1em;
+        margin-top: 0;
+      }
+
+      abbr[data-original-title],
+      abbr[title] {
+        border-bottom: 0;
+        cursor: help;
+        text-decoration: underline;
+        -webkit-text-decoration: underline dotted;
+        text-decoration: underline dotted;
+      }
+
+      address {
+        font-style: normal;
+        line-height: inherit;
+        margin-bottom: 1em;
+      }
+
+      input[type="number"],
+      input[type="password"],
+      input[type="text"],
+      textarea {
+        -webkit-appearance: none;
+      }
+
+      dl,
+      ol,
+      ul {
+        margin-bottom: 1em;
+        margin-top: 0;
+      }
+
+      ol ol,
+      ol ul,
+      ul ol,
+      ul ul {
+        margin-bottom: 0;
+      }
+
+      dt {
+        font-weight: 500;
+      }
+
+      dd {
+        margin-bottom: 0.5em;
+        margin-left: 0;
+      }
+
+      blockquote {
+        margin: 0 0 1em;
+      }
+
+      small {
+        font-size: 80%;
+      }
+
+      sub,
+      sup {
+        font-size: 75%;
+        line-height: 0;
+        position: relative;
+        vertical-align: baseline;
+      }
+
+      sub {
+        bottom: -0.25em;
+      }
+
+      sup {
+        top: -0.5em;
+      }
+
+      a {
+        -webkit-text-decoration-skip: objects;
+        color: #1890ff;
+        cursor: pointer;
+        outline: none;
+        transition: color 0.3s;
+      }
+
+      a:hover {
+        color: #40a9ff;
+      }
+
+      a:active {
+        color: #096dd9;
+      }
+
+      a:active,
+      a:focus,
+      a:hover {
+        outline: 0;
+      }
+
+      a:focus {
+        text-decoration: none;
+      }
+
+      a[disabled] {
+        color: rgba(0, 0, 0, 0.25);
+        cursor: not-allowed;
+      }
+
+      code,
+      kbd,
+      pre,
+      samp {
+        font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier,
+          monospace;
+      }
+
+      pre {
+        margin-bottom: 1em;
+      }
+
+      figure {
+        margin: 0 0 1em;
+      }
+
+      img {
+        vertical-align: middle;
+      }
+
+      [role="button"],
+      a,
+      area,
+      button,
+      input:not([type="range"]),
+      label,
+      select,
+      summary,
+      textarea {
+        touch-action: manipulation;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+
+      caption {
+        caption-side: bottom;
+        color: rgba(0, 0, 0, 0.45);
+        padding-bottom: 0.3em;
+        padding-top: 0.75em;
+        text-align: left;
+      }
+
+      button,
+      input,
+      optgroup,
+      select,
+      textarea {
+        color: inherit;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        margin: 0;
+      }
+
+      button,
+      input {
+        overflow: visible;
+      }
+
+      button,
+      select {
+        text-transform: none;
+      }
+
+      [type="reset"],
+      [type="submit"],
+      button,
+      html [type="button"] {
+        -webkit-appearance: button;
+      }
+
+      [type="button"]::-moz-focus-inner,
+      [type="reset"]::-moz-focus-inner,
+      [type="submit"]::-moz-focus-inner,
+      button::-moz-focus-inner {
+        border-style: none;
+        padding: 0;
+      }
+
+      input[type="checkbox"],
+      input[type="radio"] {
+        box-sizing: border-box;
+        padding: 0;
+      }
+
+      input[type="date"],
+      input[type="datetime-local"],
+      input[type="month"],
+      input[type="time"] {
+        -webkit-appearance: listbox;
+      }
+
+      textarea {
+        overflow: auto;
+        resize: vertical;
+      }
+
+      fieldset {
+        border: 0;
+        margin: 0;
+        min-width: 0;
+        padding: 0;
+      }
+
+      legend {
+        color: inherit;
+        display: block;
+        font-size: 1.5em;
+        line-height: inherit;
+        margin-bottom: 0.5em;
+        max-width: 100%;
+        padding: 0;
+        white-space: normal;
+        width: 100%;
+      }
+
+      progress {
+        vertical-align: baseline;
+      }
+
+      [type="number"]::-webkit-inner-spin-button,
+      [type="number"]::-webkit-outer-spin-button {
+        height: auto;
+      }
+
+      [type="search"] {
+        -webkit-appearance: none;
+        outline-offset: -2px;
+      }
+
+      [type="search"]::-webkit-search-cancel-button,
+      [type="search"]::-webkit-search-decoration {
+        -webkit-appearance: none;
+      }
+
+      ::-webkit-file-upload-button {
+        -webkit-appearance: button;
+        font: inherit;
+      }
+
+      output {
+        display: inline-block;
+      }
+
+      summary {
+        display: list-item;
+      }
+
+      template {
+        display: none;
+      }
+
+      [hidden] {
+        display: none !important;
+      }
+
+      mark {
+        background-color: #feffe6;
+        padding: 0.2em;
+      }
+
+      ::selection {
+        background: #1890ff;
+        color: #fff;
+      }
+
+      .clearfix:after,
+      .clearfix:before {
+        content: "";
+        display: table;
+      }
+
+      .clearfix:after {
+        clear: both;
+      }
+
+      :root {
+        --border-radius: 4px;
+        --color-text: #333;
+        --color-primary: #7026b9;
+        --color-code-bg: #fff4db;
+        --color-code: #8a6534;
+        --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+          Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+        --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+          "Courier New", monospace;
+        --font-lg: 18px;
+        --font-md: 16px;
+        --font-sm: 14px;
+        --font-sx: 12px;
+        --line-height-loose: 1.75;
+        --line-height-normal: 1.5;
+        --line-height-dense: 1.1;
+        --space-1: 4px;
+        --space-2: 8px;
+        --space-3: 16px;
+        --space-4: 24px;
+        --space-5: 32px;
+        --space-6: 64px;
+        --size-content: 54rem;
+        --size-gutter: var(--space-5);
+        --size-gap: var(--space-6);
+      }
+
+      html {
+        -webkit-text-size-adjust: 100%;
+        box-sizing: border-box;
+        font: sans-serif;
+        font-size: var(--font-md);
+        line-height: var(--line-height-normal);
+        overflow-y: scroll;
+      }
+
+      body {
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        word-wrap: break-word;
+        color: var(--color-text);
+        font-family: sans-serif;
+        font-family: var(--font-sans);
+        font-weight: 400;
+        margin: 0;
+      }
+
+      a {
+        background-color: transparent;
+        color: var(--color-primary);
+        font-weight: 500;
+        text-decoration: none;
+        text-decoration: underline;
+        text-decoration-thickness: 1.5px;
+        text-underline-offset: 2px;
+      }
+
+      a:active,
+      a:hover {
+        outline-width: 0;
+        text-decoration: none;
+      }
+
+      abbr[title] {
+        border-bottom: 1px dotted rgba(0, 0, 0, 0.5);
+        cursor: help;
+        text-decoration: none;
+      }
+
+      b,
+      strong {
+        font-weight: inherit;
+        font-weight: bolder;
+      }
+
+      dfn {
+        font-style: italic;
+      }
+
+      h1 {
+        letter-spacing: -0.01em;
+        line-height: var(--line-height-dense);
+        margin: 0 0 3rem;
+        padding: 0;
+      }
+
+      h1 > b {
+        color: var(--color-primary);
+      }
+
+      img {
+        border-style: none;
+        max-width: 100%;
+      }
+
+      code,
+      kbd,
+      pre,
+      samp {
+        font-family: var(--font-mono);
+        font-size: 1em;
+        line-height: inherit;
+      }
+
+      hr {
+        background: rgba(0, 0, 0, 0.2);
+        border: none;
+        box-sizing: content-box;
+        height: 1px;
+        margin-bottom: calc(var(--space-4) - 1px);
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+        overflow: visible;
+        padding: 0;
+      }
+
+      *,
+      :after,
+      :before {
+        box-sizing: inherit;
+      }
+
+      dd,
+      dl,
+      fieldset,
+      figure,
+      hgroup,
+      img,
+      ol,
+      p,
+      ul {
+        margin: 0;
+        margin-bottom: var(--space-4);
+        padding: 0;
+      }
+
+      ol,
+      ul {
+        list-style-image: none;
+        list-style-position: outside;
+        margin-left: var(--space-4);
+      }
+
+      pre {
+        word-wrap: normal;
+        background: rgba(0, 0, 0, 0.04);
+        border-radius: var(--border-radius);
+        font-size: 0.875rem;
+        line-height: var(--line-height-normal);
+        margin-bottom: var(--space-4);
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+        overflow: auto;
+        padding: var(--space-4);
+      }
+
+      b,
+      dt,
+      strong,
+      th {
+        font-weight: 700;
+      }
+
+      li {
+        margin-bottom: calc(var(--space-4) / 2);
+      }
+
+      ol li,
+      ul li {
+        padding-left: 0;
+      }
+
+      li > ol,
+      li > ul {
+        margin-bottom: calc(var(--space-4) / 2);
+        margin-left: var(--space-4);
+        margin-top: calc(var(--space-4) / 2);
+      }
+
+      blockquote :last-child,
+      li :last-child,
+      p :last-child {
+        margin-bottom: 0;
+      }
+
+      li > p {
+        margin-bottom: calc(var(--space-4) / 2);
+      }
+
+      p {
+        max-width: 680px;
+      }
+
+      code,
+      kbd,
+      samp {
+        font-size: 0.875rem;
+      }
+
+      abbr,
+      acronym {
+        border-bottom: 1px dotted rgba(0, 0, 0, 0.5);
+        cursor: help;
+      }
+
+      code,
+      tt {
+        background-color: var(--color-code-bg);
+        border-radius: var(--border-radius);
+        color: var(--color-code);
+        font-family: var(--font-mono);
+        padding-bottom: 0.25em;
+        padding-top: 0.25em;
+        word-break: normal;
+      }
+
+      pre code {
+        background: none;
+      }
+
+      code:after,
+      code:before,
+      tt:after,
+      tt:before {
+        content: "\00a0";
+        letter-spacing: -0.2em;
+      }
+
+      pre code:after,
+      pre code:before,
+      pre tt:after,
+      pre tt:before {
+        content: none;
+      }
+    </style>
+    <style>
+      .css-18n6g0n {
+        padding: 26px 0;
+        min-height: calc(100vh - 148px);
+        background-color: #f9f9f9;
+      }
+      .css-5f31t7 {
+        padding: 32px;
+        margin: 0px auto;
+        width: 1000px;
+        background: rgb(255, 255, 255);
+        border-radius: 8px;
+      }
+      .css-uf1ume {
+        display: flex;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+      }
+      .css-3amxxa {
+        flex: 1 1 0%;
+        display: flex;
+        gap: 20px;
+      }
+      .css-qt58li {
+        margin: 0px;
+        padding: 0px;
+        height: 94px;
+        width: 94px;
+        vertical-align: bottom;
+        border-radius: 47px;
+      }
+      .css-1bv9m7i {
+        margin: 0px;
+        line-height: 22px;
+        display: flex;
+      }
+      .css-1y94f4v {
+        margin-top: 12px;
+        line-height: 22px;
+        font-size: 14px;
+        font-family: "PingFang PingFang SC-Regular", "PingFang SC", sans-serif;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.6);
+      }
+      .css-hta420 {
+        margin-top: 12px;
+        display: flex;
+        gap: 6px;
+      }
+      .css-1xjp5v9 {
+        padding: 0px 12px;
+        line-height: 26px;
+        font-size: 14px;
+        font-family: "PingFang SC-Regular", "PingFang SC", sans-serif;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.6);
+        background: rgba(0, 0, 0, 0.04);
+        border-radius: 4px;
+        /* background-image: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%' viewBox='0 0 100 100'><rect x='0' y='0' width='100' height='100' fill='rgba(0, 0, 0, 0.04)'/></svg>"); */
+      }
+      .css-1t1o6j4 {
+        padding: 12px 32px 32px;
+        margin: 16px auto 0px;
+        width: 1000px;
+        background: rgb(255, 255, 255);
+        border-radius: 8px;
+      }
+      .css-14i0i3m {
+        height: 62px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+      }
+      .css-1a1ce6t {
+        line-height: 62px;
+        font-size: 16px;
+        font-family: "PingFang SC-Regular", "PingFang SC", sans-serif;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.8);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .css-nrrgjs {
+        padding-top: 20px;
+        flex-direction: column;
+      }
+      .css-1cy43vh {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: row;
+        gap: 33px;
+      }
+      .css-1mlq0k {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+      }
+      .css-op3zxg {
+        margin-bottom: 20px;
+      }
+      .css-l9xq8b {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+      .css-1ekr4xj {
+        line-height: 22px;
+        font-size: 16px;
+        font-family: "PingFang SC-Bold", "PingFang SC", sans-serif;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+      }
+      .css-16u9yyk {
+        font-size: 14px;
+        font-family: "PingFang SC-Regular", "PingFang SC", sans-serif;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.6);
+      }
+      .css-1co67hb {
+        margin-top: 6px;
+        line-height: 22px;
+        font-size: 14px;
+        font-family: "PingFang SC-Regular", "PingFang SC", sans-serif;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.6);
+      }
+      .css-1abyd2c {
+        line-height: 24px;
+        font-size: 14px;
+        font-family: "PingFang SC-Regular", "PingFang SC", sans-serif;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.8);
+      }
+      .css-9x0ztm {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px 32px;
+      }
+      .css-9cluz4 {
+        width: calc(50% - 16px);
+      }
+      .css-1wkwk7m {
+        line-height: 22px;
+        font-size: 16px;
+        font-family: "PingFang SC-Bold", "PingFang SC", sans-serif;
+        font-weight: bold;
+        color: rgba(0, 0, 0, 0.8);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="___gatsby">
+      <div style="outline: none" tabindex="-1" id="gatsby-focus-wrapper">
+        <div class="css-18n6g0n">
+          <div width="1000" class="css-5f31t7">
+            <div class="css-uf1ume">
+              <div class="css-3amxxa">
+                <img src="./avatar.png" class="css-qt58li" />
+                <div class="css-1e2fy0l">
+                  <div class="css-1e2fy0l">
+                    <div class="css-1bv9m7i">
+                      <span>daniellu841231@gmail.com</span>
+                    </div>
+                    <div class="css-1y94f4v">全栈工程师</div>
+                  </div>
+                  <div class="css-hta420">
+                    <div class="css-1xjp5v9">上海</div>
+                    <div class="css-1xjp5v9">8年经验</div>
+                    <div class="css-1xjp5v9">兼职工作</div>
+                    <div class="css-1xjp5v9">远程工作</div>
+                    <div class="css-1xjp5v9">全栈开发</div>
+                  </div>
+                </div>
+              </div>
+              <div class="css-1e2fy0l"></div>
+            </div>
+          </div>
+
+          <div width="1000" class="css-1t1o6j4">
+            <div class="css-14i0i3m">
+              <div class="css-1a1ce6t">个人简介</div>
+            </div>
+            <div direction="column" class="css-nrrgjs">
+              我是一名全栈工程师，有8年以上的开发工作经验。
+              我在之前的公司中，担任了开发总监一职，带过10人左右的研发团队，包括产品，美术，前后端开发和测试，运维等。我也经历过小开发团队的各种混乱，承担过团队中各个岗位的职责。
+            </div>
+            <div direction="column" class="css-nrrgjs">
+              我主要使用的语言和工具如下：
+            </div>
+            <div
+              direction="column"
+              class="css-nrrgjs"
+              style="margin-top: 4px; padding: 0px"
+            >
+              前端：VUE2/3, Element-UI, TailwindCSS, Uni-App
+            </div>
+            <div
+              direction="column"
+              class="css-nrrgjs"
+              style="margin-top: 4px; padding: 0px"
+            >
+              后端：Node.JS/Golang
+            </div>
+            <div
+              direction="column"
+              class="css-nrrgjs"
+              style="margin-top: 4px; padding: 0px"
+            >
+              数据库：Mysql/Redis
+            </div>
+          </div>
+          <div width="1000" class="css-1t1o6j4">
+            <div class="css-14i0i3m">
+              <div class="css-1a1ce6t">学习经历</div>
+            </div>
+            <div direction="column" class="css-1mlq0k">
+              <div class="css-1e2fy0l">
+                <div class="css-op3zxg">
+                  <div class="css-l9xq8b">
+                    <div class="css-1ekr4xj">上海师范大学</div>
+                    <div class="css-16u9yyk">经济·本科</div>
+                  </div>
+                  <div class="css-1co67hb">2003-09-01 - 2007-06-30</div>
+                </div>
+                <div class="css-1abyd2c"></div>
+              </div>
+              <div class="css-1e2fy0l">
+                <div class="css-op3zxg">
+                  <div class="css-l9xq8b">
+                    <div class="css-1ekr4xj">上海师范大学</div>
+                    <div class="css-16u9yyk">计算机（二本）·本科</div>
+                  </div>
+                  <div class="css-1co67hb">2003-09-01 - 2007-06-30</div>
+                </div>
+                <div class="css-1abyd2c">第二本科</div>
+              </div>
+            </div>
+          </div>
+          <div width="1000" class="css-1t1o6j4">
+            <div class="css-14i0i3m">
+              <div class="css-1a1ce6t">工作经历</div>
+            </div>
+            <div direction="column" class="css-1mlq0k">
+              <div class="css-1e2fy0l">
+                <div class="css-op3zxg">
+                  <div class="css-l9xq8b">
+                    <div class="css-1ekr4xj">上海核力教育培训有限公司</div>
+                    <div class="css-16u9yyk">开发总监</div>
+                  </div>
+                  <div class="css-1co67hb">2022-06-01 - 2023-06-01</div>
+                </div>
+                <div class="css-1abyd2c">负责公司外包项目建设</div>
+              </div>
+            </div>
+          </div>
+          <div width="1000" class="css-1t1o6j4">
+            <div class="css-14i0i3m">
+              <div class="css-1a1ce6t">专业技能</div>
+            </div>
+            <div direction="column" class="css-nrrgjs">
+              <div class="css-9x0ztm">
+                <div class="css-9cluz4">
+                  <div class="css-1wkwk7m">Node.js</div>
+                  <svg width="100%" height="8" viewBox="0 0 452 8">
+                    <rect x="0" y="0" width="452" height="8" fill="#f5f5f5" />
+                    <rect x="0" y="0" width="406" height="8" fill="#33D96C" />
+                  </svg>
+                </div>
+                <div class="css-9cluz4">
+                  <div class="css-1wkwk7m">Vue2/3</div>
+                  <svg width="100%" height="8" viewBox="0 0 452 8">
+                    <rect x="0" y="0" width="452" height="8" fill="#f5f5f5" />
+                    <rect x="0" y="0" width="406" height="8" fill="#33D96C" />
+                  </svg>
+                </div>
+                <div class="css-9cluz4">
+                  <div class="css-1wkwk7m">TailwindCSS</div>
+                  <svg width="100%" height="8" viewBox="0 0 452 8">
+                    <rect x="0" y="0" width="452" height="8" fill="#f5f5f5" />
+                    <rect x="0" y="0" width="406" height="8" fill="#33D96C" />
+                  </svg>
+                </div>
+                <div class="css-9cluz4">
+                  <div class="css-1wkwk7m">Element-UI</div>
+                  <svg width="100%" height="8" viewBox="0 0 452 8">
+                    <rect x="0" y="0" width="452" height="8" fill="#f5f5f5" />
+                    <rect x="0" y="0" width="406" height="8" fill="#33D96C" />
+                  </svg>
+                </div>
+                <div class="css-9cluz4">
+                  <div class="css-1wkwk7m">Redis</div>
+                  <svg width="100%" height="8" viewBox="0 0 452 8">
+                    <rect x="0" y="0" width="452" height="8" fill="#f5f5f5" />
+                    <rect x="0" y="0" width="406" height="8" fill="#33D96C" />
+                  </svg>
+                </div>
+                <div class="css-9cluz4">
+                  <div class="css-1wkwk7m">MySql</div>
+                  <svg width="100%" height="8" viewBox="0 0 452 8">
+                    <rect x="0" y="0" width="452" height="8" fill="#f5f5f5" />
+                    <rect x="0" y="0" width="406" height="8" fill="#33D96C" />
+                  </svg>
+                </div>
+                <div class="css-9cluz4">
+                  <div class="css-1wkwk7m">Uni-APP</div>
+                  <svg width="100%" height="8" viewBox="0 0 452 8">
+                    <rect x="0" y="0" width="452" height="8" fill="#f5f5f5" />
+                    <rect x="0" y="0" width="406" height="8" fill="#33D96C" />
+                  </svg>
+                </div>
+                <div class="css-9cluz4">
+                  <div class="css-1wkwk7m">Golang</div>
+                  <svg width="100%" height="8" viewBox="0 0 452 8">
+                    <rect x="0" y="0" width="452" height="8" fill="#f5f5f5" />
+                    <rect x="0" y="0" width="362" height="8" fill="#33D96C" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div width="1000" class="css-1t1o6j4">
+            <div class="css-14i0i3m">
+              <div class="css-1a1ce6t">项目经历</div>
+            </div>
+            <div direction="row" class="css-1cy43vh" style="flex-wrap: wrap">
+              1.上海浦东托育机构管理平台<br />
+              产品描述：面向浦东全市三岁以下托育机构的管理平台。<br />
+              技术：前端 Vue2.0 / 后端 NodeJS / 数据库 MySQL 8.0<br />
+              工作职责：工程师/研发主管。负责整站开发。包括身份分权分域；详细信息填报；信息审批比对；手机/Pad端现场信息采集输入；生成报告文档等。<br />
+            </div>
+            <div direction="row" class="css-1cy43vh" style="flex-wrap: wrap">
+              2.墨舟<br />
+              产品描述：为一家书法培训机构提供支持的业务系统。以微信小程序/手机APP为主的前端。<br />
+              技术：前端 Vue2.0 / Uni-App<br />
+              工作职责：前端工程师。前端小程序/APP的业务页面设计开发。<br />
+            </div>
+            <div direction="row" class="css-1cy43vh" style="flex-wrap: wrap">
+              3.探究学习1.0<br />
+              产品描述：面向全市中小学生竞赛的平台。学生报名后，可在此平台上与导师沟通交流参与自己申报的课题研究。<br />
+              技术：前端 Vue2.0 / 后端 NodeJS / 数据库 MySQL 8.0<br />
+              工作职责：后端工程师。主要负责后端核心业务模块开发，对前端后端客户端提供接口，业务包括身份权限控制，竞赛流程控制，管理后台数据汇总等。<br />
+            </div>
+            <div direction="row" class="css-1cy43vh" style="flex-wrap: wrap">
+              4.探究学习2.0<br />
+              产品描述：面向全市中小学生课题比赛的平台。学生可在此平台上与导师沟通交流参与自己申报的课题研究。导师带领助教和学生完成课题的申报研究，批改作业等功能。<br />
+              技术：前端 Vue2.0 / 后端 NodeJS / 数据库 MySQL 8.0 / Redis<br />
+              工作职责：全栈工程师/研发主管。负责整体开发工作。包括技术选型；前端web/小程序业务页面设计开发；后端业务系统设计开发；整体开发进度把控；产品设计。<br />
+            </div>
+            <div direction="row" class="css-1cy43vh" style="flex-wrap: wrap">
+              5.云上智行港<br />
+              产品描述：为上海汽车城开发的一套业务系统。主要以微信小程序为主，包含3D全景漫游，新能源汽车导览，CMS等功能。还包括一个运营人员使用的后台。<br />
+              技术：前端 Vue2.0 / Uni-App / 后端 NodeJS / 数据库 MySQL 8.0<br />
+              工作职责：全栈工程师/研发主管。负责整体开发工作。前端web/小程序业务页面设计开发；后端业务系统设计开发；整体开发进度把控；产品设计。<br />
+            </div>
+          </div>
+          <div width="1000" class="css-1t1o6j4">
+            <div class="css-14i0i3m">
+              <div class="css-1a1ce6t">项目案例</div>
+            </div>
+            <div direction="column" class="css-1mlq0k">
+              <div class="css-1e2fy0l">
+                <div class="css-op3zxg">
+                  <div class="css-l9xq8b">
+                    <div class="css-1ekr4xj">上海浦东托育机构管理平台</div>
+                  </div>
+                  <div class="css-1co67hb">
+                    <img src="./ty-01.jpg" class="css-1mu2xwd" />
+                    <img src="./ty-02.jpg" class="css-1mu2xwd" />
+                  </div>
+                  <div class="css-l9xq8b">
+                    <div class="css-1ekr4xj">云上智行港</div>
+                  </div>
+                  <div class="css-1co67hb" style="text-align: center">
+                    <img
+                      src="./zx-01.png"
+                      class="css-1mu2xwd"
+                      style="width: 40%; height: 40%"
+                    />
+                    <img
+                      src="./zx-02.png"
+                      class="css-1mu2xwd"
+                      style="width: 40%; height: 40%"
+                    />
+                  </div>
+                  <div class="css-1ekr4xj">探究学习APP</div>
+                  <div class="css-1co67hb" style="text-align: center">
+                    <img
+                      src="./IMG_2754.PNG"
+                      class="css-1mu2xwd"
+                      style="width: 40%; height: 40%"
+                    />
+                    <img
+                      src="./IMG_2755.PNG"
+                      class="css-1mu2xwd"
+                      style="width: 40%; height: 40%"
+                    />
+                    <img
+                      src="./IMG_2756.PNG"
+                      class="css-1mu2xwd"
+                      style="width: 40%; height: 40%"
+                    />
+                    <img
+                      src="./IMG_2757.PNG"
+                      class="css-1mu2xwd"
+                      style="width: 40%; height: 40%"
+                    />
+                    <img
+                      src="./IMG_2758.PNG"
+                      class="css-1mu2xwd"
+                      style="width: 40%; height: 40%"
+                    />
+                    <!-- <img src="./" class="css-1mu2xwd" style="width: 40%;height:40%"/> -->
+                    <img style="width: 374px" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
